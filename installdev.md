@@ -19,7 +19,7 @@ Follow the installer prompts. By default Miniforge is installed in `~/miniforge3
 > The default name is `blocklyds-dev`.
 
 ```bash
-mamba env create -f environment.yml
+mamba create -n dev jupyterlab=4 nodejs=18 git copier=7 jinja2-time
 ```
 
 ## 3. Initialize mamba for your shell
