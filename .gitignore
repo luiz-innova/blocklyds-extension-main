@@ -12,3 +12,5 @@ blocklyV0/_version.py
 __pycache__/
 .yarn/
 .pnp.*
+dev/
+dist/
