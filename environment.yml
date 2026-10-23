@@ -1,0 +1,12 @@
+name: blocklyds-dev
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - nodejs>=18
+  - jupyterlab>=4.2,<5
+  - hatchling>=1.5.0
+  - hatch-nodejs-version>=0.3.2
+  - jupyterlab-lsp
+  - python-lsp-server
